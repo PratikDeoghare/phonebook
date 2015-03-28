@@ -73,17 +73,17 @@ namespace my{
                 std::cout << std::setw(3);
                 std::cout << i;  
             }
-            std::cout << std::endl;
+            std::cout << "   <- Number" << std::endl;
             for (int i = 0; i < N; i++) {
                 std::cout << std::setw(3);
                 std::cout << number_taken_.test(i);
             }
-            std::cout << std::endl;
+            std::cout << "   <- Is number in use?" << std::endl;
             for (int i = 0; i < N; i++) {
                 std::cout << std::setw(3);
                 std::cout << childern_taken_.test(i);
             }
-            std::cout << std::endl;
+            std::cout << "   <- Are all the children in use?" << std::endl;
         }
 
     template<size_t N>

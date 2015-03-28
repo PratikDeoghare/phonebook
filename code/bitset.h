@@ -4,6 +4,9 @@
 
 #include <limits>
 
+
+// Written for the love of bithacks! 
+
 namespace my{
     template<std::size_t N>
         class bitset{
