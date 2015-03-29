@@ -1,0 +1,31 @@
+
+
+digraph {
+    node [shape = record]
+    n0 [label = "0|In use"]
+    n1 [label = "1|In use"]
+    n2 [label = "2|In use"]
+    n3 [label = "3|In use"]
+    n4 [label = "4|In use", color = red]
+    n5 [label = "5|In use"]
+    n6 [label = "6|In use"]
+    n7 [label = "7|In use", color = red]
+    n8 [label = "8|", color = red]
+    n9 [label = "9|In use", color = red]
+    n10 [label = "10|In use", color = red]
+    n11 [label = "11|In use", color = red]
+    n12 [label = "12|", color = red]
+    n13 [label = "13|", color = red]
+    n14 [label = "14|", color = red]
+
+
+// graph 
+    
+    n0 -> {n1, n2}
+    n1 -> {n3, n4}
+    n2 -> {n5, n6}
+    n3 -> {n7, n8}
+    n4 -> {n9, n10}
+    n5 -> {n11, n12}
+    n6 -> {n13, n14}
+}
